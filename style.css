@@ -1,0 +1,149 @@
+
+header{
+    display: flex;
+    background-color: #FC7300;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+body {
+  background-color: #EFF5F5;
+}
+.logo {
+    display: flex;
+}
+
+.logo img {
+    margin-right: 10px;
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+    width: fit-content;
+}
+
+nav a:hover {
+    color: rgb(255, 8, 8);
+}
+
+#quienesSomos img {
+  padding-top: 1px;
+  height: 200px;
+}
+
+#xquienesSomos img {
+  height: 180px;
+  margin: 0%;
+  padding: 0%;
+}
+#quienesSomos h2 {
+  font-size: 1.3rem; 
+  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  font-weight: 900;
+}
+
+#quienesSomos li {
+  font-size: 0.9rem; 
+  font-weight: 550;
+  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+#porqueElegirnos h3 {
+    padding: 10px 0 0 20px;
+    font-size: 1.3rem; 
+    line-height: 2rem; 
+    font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+    font-weight: 900;
+}
+#porqueElegirnos img {
+  height: 180px;
+  margin: 0%;
+  padding: 0%;
+}
+
+#porqueElegirnos p {
+  font-size: 0.9rem; 
+  font-weight: 550;
+  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+}
+#propuesta h3{
+  padding-top: 25px;
+}
+
+#propuesta p {
+  font-size: medium;
+  font-weight: 550;
+  font-family: 'Belanosima', sans-serif; 
+  margin: 10px;
+}
+
+#ultimasNoticias h4 {
+  padding-top: 25px;
+  font-weight: 550;
+}
+
+#noticias {
+  margin: 0;
+  font-family: 'Belanosima', sans-serif;
+  font-size: 1rem; 
+  font-weight: 550;
+  background-color: #1F8A70;
+  display: flexbox;
+}
+
+.form-container {
+  padding: 10px;
+  background-color: #cbd7d4;
+  flex-direction: column;
+}
+
+.form-container h4{
+  margin-bottom: 14px;
+  font-size: 24px;
+}
+
+.form-container form {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.form-container input,
+.form-container select {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #9e3939;
+  border-radius: 4px;
+}
+
+.form-container button {
+  padding: 15px;
+  background-color: #0673e0;
+  color: #130b0b;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.form-container button:hover {
+  background-color: #0056b3;
+  
+}
+
+footer {
+  background-color: #efe5e5;
+  text-align: center;
+  color: #ee2a2a;
+  margin: 0;
+  bottom: 0;
+  width: 100%;
+}
+  
+
+#empresa {
+  margin: 0;
+  padding: 0%;
+  background-color: #181823;
+}
